@@ -10,9 +10,6 @@ pool:
   name: Default
   demands: 
    - agent.name -equals PLKCZ1ZARAGKI11
-
-variables:
-  buildConfiguration: 'Release'
   
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
