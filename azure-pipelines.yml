@@ -18,8 +18,7 @@ steps:
 
 - script: |
     cd build
-    pipelines-dotnet-core.exe
-    cd ..
+    echo Bye
   displayName: 'Run Display task'
 
 - script: |
